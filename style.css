@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0 3rem 3rem 3rem;
+}
+
+#hero {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:center; */
+    align-items: center;
+    border-radius: 1rem 1rem 0 0;
+}
+
+#hero .left {
+    padding-right: 30px;
+}
+
+#hero .middle nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 15px 15px 0 0;
+    text-decoration: none;
+}
+
+#hero .middle li {
+    display: inline;
+    padding-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#hero .middle li .user-icon {
+    margin-right: 10px;
+}
+
+#hero .middle li .user-icon img {
+    height: 1rem;
+    width: 0.8rem;
+}
+
+#hero .middle li .owner img {
+    height: 1rem;
+    width: 0.8rem;
+}
+
+#hero .middle li .man img {
+    height: 1rem;
+    width: 0.8rem;
+}
+
+#hero .middle li .owner {
+    margin-right: 10px;
+}
+
+#hero .middle a {
+    text-decoration: none;
+    color: rgb(44, 233, 44);
+}
+
+#hero .right {
+    padding-left: 15px;
+}
+
+#hero .right button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #1cec27;
+    color: #ffffff;
+    border: 1px solid #1fdf3f;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+
+}
+
+#hero .button:hover {
+    background-color: white;
+
+    color: #ec2a4a;
+}
+
+#picture {
+
+    /* align-items: center; */
+    /* display: flex;
+    flex-direction: row; */
+    /* padding-right: 50px; */
+    /* border: 2px solid red; */
+
+}
+
+#picture .top img {
+    /* height: 30rem; */
+    width: 67rem;
+    justify-content: center;
+    /* padding-left: 370px; */
+   
+}
+
+#sun {
+    background-color: #f0cadc;
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 1000px; */
+
+    width: 67rem;
+    height: 33rem;
+
+    padding-top: 20px;
+}
+
+#sun .left img {
+
+    width: 25rem;
+    height: 25rem;
+    padding-left: 50px;
+}
+
+#sun .middle img {
+    width: 27rem;
+    height: 30rem;
+
+}
+
+#sun .right p {
+    font-weight: 800;
+    padding-top: 80px;
+    font-size: 30px;
+    color: rgb(243, 42, 109);
+}
+
+#sun .down {
+    display: flex;
+    flex-direction: row;
+}
+
+#Group {
+    background-color: white;
+}
+
+#Group .top img {
+    width: 67rem;
+}
+
+#about {
+    background-color: rgb(231, 247, 247);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 67rem;
+    padding-bottom: 15px;
+}
+
+#about .left img {
+    width: 33rem;
+}
+
+#about .right {
+    display: flex;
+    flex-direction: column;
+    /* text-align: right; */
+
+    padding-right: 20px;
+}
+
+#about .top h1 {
+    font-weight: 800;
+    color: #792533;
+    font-size: 40px;
+}
+
+#about .middle h2 {
+    color: red;
+    font-weight: 500;
+}
+
+#about .mid p {
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+#about .end button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #167213;
+    color: #ffffff;
+    border: 1px solid #106d1f;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+
+#about .button:hover {
+    background-color: white;
+
+    color: #ec2a4a;
+}
+#years{
+    background-color: white;
+    width: 67rem;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#years .top img{
+    width: 67rem;
+    padding-bottom: 50px;
+}
+#years .down button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #ce1111;
+    color: #ffffff;
+    border: 1px solid #ce1e18;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+#years .button:hover {
+    background-color: white;
+
+    color: #ec2a4a;
+}
+#years .down{
+    text-align: center;
+}
