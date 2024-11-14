@@ -253,10 +253,17 @@ body {
 
 #our {
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     background-color: #b6f7b9;
     width: 67rem;
     height: 40rem;
+}
+.bg-image {
+    
+    background-image: url("Kid's crafts 1.png");}
+#our .top{
+    display: flex;
+    flex-direction: column;
 }
 
 #our .top h1 {
@@ -264,22 +271,37 @@ body {
     padding-top: 50px;
     font-weight: 800;
     color: #ce1111;
+    padding-bottom: 180px;
+   
 }
-
-#our .top img {
+hr{
     width: 30rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-left: 400px;
+    color: black;
+    border: 1px solid black;
 }
-
-#our .middle img {
-    width: 20rem;
-    justify-content: center;
-    align-items: center;
+#our .top h2{
+    color: #ce1e18;
+    font-weight: 600;
+    font-size: 20px;
 }
-
+#our .top h3{
+    color: #ce1e18;
+    font-weight: 600;
+    font-size: 20px;
+}
+#our .top h4{
+    color: #ce1e18;
+    font-weight: 600;
+    font-size: 20px;
+}
+#our .top h5{
+    color: #ce1e18;
+    font-weight: 600;
+    font-size: 20px;
+}
+#our .top img{
+    width: 25rem;
+}
 #our .left img {
     width: 21rem;
    
@@ -472,7 +494,7 @@ border-radius: 15px;
 }
 
 #now {
-    background-color: #ec2a4a;
+    background-color: #ec2a4ada;
     display: flex;
     flex-direction: row;
     width: 67rem;
@@ -522,10 +544,8 @@ border-radius: 15px;
     color: #ec2a4a;
 }
 #footer{
-    background-color: #1fdf3f;
+    background-color: #1fdf3fce;
     width: 67rem;
-    display: flex;
-    flex-direction: row;
 }
 #footer .top img{
     width: 67rem;
