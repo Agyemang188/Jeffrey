@@ -174,7 +174,8 @@ body {
 
 #sun .down img{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+   
 }
 
 #Group {
@@ -412,6 +413,7 @@ hr{
     flex-direction:column;
     padding-top: 70px;
 }
+
 #hope .top h1{
     color: green;
     font-weight: 600;
@@ -421,7 +423,7 @@ hr{
     padding-right: 600px;
 }
 #hope .left{
-   background-color: #eeb5d0;
+   background-color: #fad0e4dc;
    display: flex;
    flex-direction: row;
    padding-top: 30px;
