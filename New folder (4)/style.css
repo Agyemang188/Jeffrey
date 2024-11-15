@@ -187,11 +187,12 @@ body {
 }
 
 #about {
-    background-color: rgb(231, 247, 247);
+    background-color: rgb(240, 251, 252);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 67rem;
+    height: 29rem;
     padding-bottom: 15px;
 }
 
@@ -241,6 +242,10 @@ body {
     background-color: white;
 
     color: #ec2a4a;
+}
+#about .end img{
+    width: 14rem;
+    padding-top: 20px;
 }
 
 #years {
