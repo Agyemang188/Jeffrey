@@ -417,6 +417,7 @@ hr{
     display: flex;
     flex-direction:column;
     padding-top: 70px;
+
 }
 
 #hope .top h1{
@@ -432,7 +433,7 @@ hr{
    display: flex;
    flex-direction: row;
    padding-top: 30px;
-   width: 60rem;
+   width: 67rem;
    
 }
 #hope .left p{
