@@ -1,0 +1,587 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0 3rem 3rem 3rem;
+}
+
+#hero {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:center; */
+    align-items: center;
+    border-radius: 1rem 1rem 0 0;
+}
+
+#hero .left {
+    padding-right: 30px;
+}
+
+#hero .middle nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 15px 15px 0 0;
+    text-decoration: none;
+}
+
+#hero .middle li {
+    display: inline;
+    padding-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#hero .middle li .user-icon {
+    margin-right: 10px;
+}
+
+#hero .middle li .user-icon img {
+    height: 1rem;
+    width: 0.8rem;
+}
+
+#hero .middle li .owner img {
+    height: 1rem;
+    width: 0.8rem;
+}
+
+#hero .middle li .man img {
+    height: 1rem;
+    width: 0.8rem;
+}
+
+#hero .middle li .owner {
+    margin-right: 10px;
+}
+
+#hero .middle a {
+    text-decoration: none;
+    color: rgb(44, 233, 44);
+}
+
+#hero .right {
+    padding-left: 15px;
+}
+
+#hero .right button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #1cec27;
+    color: #ffffff;
+    border: 1px solid #1fdf3f;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+
+}
+
+#hero .button:hover {
+    background-color: white;
+
+    color: #ec2a4a;
+}
+
+#picture {
+
+    /* align-items: center; */
+    /* display: flex;
+    flex-direction: row; */
+    /* padding-right: 50px; */
+    /* border: 2px solid red; */
+
+}
+
+#picture .top img {
+    /* height: 30rem; */
+    width: 67rem;
+    justify-content: center;
+    /* padding-left: 370px; */
+
+}
+
+#sun {
+    background-color: #f0cadc;
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 1000px; */
+
+    width: 67rem;
+    height: 33rem;
+
+    padding-top: 20px;
+}
+
+#sun .left img {
+
+    width: 25rem;
+    height: 25rem;
+    padding-left: 50px;
+}
+
+#sun .middle img {
+    width: 27rem;
+    height: 30rem;
+
+}
+#sun .right .detail-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 50px;
+    text-decoration: none;
+    color: #5b098a;
+    font-weight: bolder;
+    padding-top: 80px;
+
+}
+
+#sun .right .detail-box h6 span {
+    color: #db4f66;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    
+
+}
+
+#new .h6 {
+    text-decoration: none;
+    font-size: 55px;
+}
+
+#sun .right p {
+    font-weight: 800;
+    padding-top: 80px;
+    font-size: 30px;
+    color: rgb(243, 42, 109);
+}
+
+#sun .down img{
+    display: flex;
+    flex-direction: row;
+}
+
+#Group {
+    background-color: white;
+}
+
+#Group .top img {
+    width: 67rem;
+}
+
+#about {
+    background-color: rgb(231, 247, 247);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 67rem;
+    padding-bottom: 15px;
+}
+
+#about .left img {
+    width: 33rem;
+}
+
+#about .right {
+    display: flex;
+    flex-direction: column;
+    /* text-align: right; */
+
+    padding-right: 20px;
+}
+
+#about .top h1 {
+    font-weight: 800;
+    color: #792533;
+    font-size: 40px;
+}
+
+#about .middle h2 {
+    color: red;
+    font-weight: 500;
+}
+
+#about .mid p {
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+#about .end button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #167213;
+    color: #ffffff;
+    border: 1px solid #106d1f;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+
+#about .button:hover {
+    background-color: white;
+
+    color: #ec2a4a;
+}
+
+#years {
+    background-color: white;
+    width: 67rem;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#years .top img {
+    width: 67rem;
+    padding-bottom: 50px;
+}
+
+#years .down button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #ce1111;
+    color: #ffffff;
+    border: 1px solid #ce1e18;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+
+#years .button:hover {
+    background-color: white;
+
+    color: #ec2a4a;
+}
+
+#years .down {
+    text-align: center;
+}
+
+#our {
+    display: flex;
+    flex-direction:row;
+    background-color: #b6f7b9;
+    width: 67rem;
+    height: 40rem;
+}
+.bg-image {
+    
+    background-image: url("Kid's crafts 1.png");}
+#our .top{
+    display: flex;
+    flex-direction: column;
+}
+
+#our .top h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 800;
+    color: #ce1111;
+    padding-bottom: 180px;
+   
+}
+hr{
+    width: 30rem;
+    color: black;
+    border: 1px solid black;
+}
+#our .top h2{
+    color: #ce1e18;
+    font-weight: 600;
+    font-size: 20px;
+}
+#our .top h3{
+    color: #ce1e18;
+    font-weight: 600;
+    font-size: 20px;
+}
+#our .top h4{
+    color: #ce1e18;
+    font-weight: 600;
+    font-size: 20px;
+}
+#our .top h5{
+    color: #ce1e18;
+    font-weight: 600;
+    font-size: 20px;
+}
+#our .top img{
+    width: 25rem;
+}
+#our .left img {
+    width: 21rem;
+   
+}
+/* #our .middle img{
+    padding-right: 450px;
+    width: 45rem;
+    padding-top: 190px;
+} */
+#more{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding-top: 50px;
+}
+#more .top img{
+    width: 67rem;
+    padding-bottom: 40px ;
+}
+#more .down button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #ce1111;
+    color: #ffffff;
+    border: 1px solid #ce1e18;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 20px;
+    font-weight: 500;
+   
+}
+#more .down{
+    padding-left: 350px;
+}
+#more .button{
+    text-align: center;
+    padding-left: 50px;
+}
+
+#more .button:hover {
+    background-color: white;
+
+    color: #ec2a4a;
+}
+#donate{
+    background-color: #ffffff;
+    padding-top: 50px;
+}
+#donate .top img{
+    width: 67rem;
+    padding-bottom: 40px;
+}
+
+#donate .down button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: hwb(347 11% 62%);
+    color: #ffffff;
+    border: 1px solid hwb(347 11% 62%);
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 20px;
+    font-weight: 500;
+   
+}
+#donate .down{
+  text-align: center;
+}
+#donate .button:hover {
+    background-color: white;
+
+    color: #ec2a4a;
+}
+#hope{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction:column;
+    padding-top: 70px;
+}
+#hope .top h1{
+    color: green;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-right: 600px;
+}
+#hope .left{
+   background-color: #eeb5d0;
+   display: flex;
+   flex-direction: row;
+   padding-top: 30px;
+   width: 60rem;
+   
+}
+#hope .left p{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 130px;
+}
+#hope .left img{
+    width: 19rem;
+}
+#hope .down button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: hwb(124 7% 45%);
+    color: #ffffff;
+    border: 1px solid hwb(124 7% 45%);
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 20px;
+    font-weight: 500;
+   
+}
+#hope .down{
+  text-align: right;
+  padding-top: 30px;
+  padding-right:1100px;
+}
+#hope .button:hover {
+    background-color: white;
+
+    color: #ec2a4a;
+}
+#ways{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+#ways .top h1{
+    font-weight: 700;
+    color: #167213;
+    padding-left: 400px;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+#ways .down .card {
+    text-align: center;
+    width: 22rem;
+    height: 17rem;
+    padding-top: 1.5rem;
+    /* box-shadow: 0 4px 4px lightgray; */
+    transition: 0.3s;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    background-color: rgba(255, 249, 249, 0.014);
+}
+.bg-image {
+    
+    background-image: url("Group\ 24.png");
+border-radius: 15px;
+}
+
+    
+
+#ways .down p {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #ffffff;
+
+}
+
+#ways .down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 67rem;
+}
+#ways .down button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: hwb(0 100% 0%);
+    color: green;
+    border: 1px solid hwb(0 100% 0%);
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: larger;
+   
+   
+}
+#donate .down{
+  text-align: center;
+}
+#ways .button:hover {
+    background-color: white;
+
+    color: #ec2a4a;
+}
+
+#now {
+    background-color: #ec2a4ada;
+    display: flex;
+    flex-direction: row;
+    width: 67rem;
+    /* height: 35rem; */
+    justify-content: space-between;
+}
+#now .top {
+    text-align: center;
+    color: #ffffff;
+}
+
+#now .top h1{
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 40px;
+    font-size: 40px;
+}
+#now .top p{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 17px;
+}
+#now .left img{
+    width: 15rem;
+}
+#now .right{
+    text-align: end;
+}
+#now .top button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: hwb(51 0% 0%);
+    color: rgb(70, 45, 9);
+    border: 1px solid hwb(56 0% 0%);
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: larger; 
+}
+
+#now .button:hover {
+    background-color: white;
+
+    color: #ec2a4a;
+}
+#footer{
+    background-color: #1fdf3fce;
+    width: 67rem;
+}
+#footer .top img{
+    width: 67rem;
+}
